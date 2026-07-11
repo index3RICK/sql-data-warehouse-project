@@ -1,7 +1,7 @@
 # Exploratory Data Analysis (EDA)
 
 <p align="center">
-  <img src="docs/exploratory-data-analysis.png" width="950">
+  <img src="docs/exploratory-data-analysis.png" alt="Exploratory Data Analysis Workflow" width="900">
 </p>
 
 ## Overview
