@@ -4,19 +4,19 @@
 
 This folder contains the SQL scripts used to perform an Exploratory Data Analysis (EDA) on the Gold Layer of the Data Warehouse.
 
-The objective is to understand the structure, quality and business characteristics of the data before creating dashboards or performing advanced analytics.
+The purpose of this phase is to understand the structure, quality, distribution, and business characteristics of the data before building dashboards or applying advanced analytics techniques.
 
 ---
 
 # Objectives
 
-- Explore database objects.
-- Understand table structures.
+- Explore database objects and metadata.
+- Understand the structure of the analytical model.
 - Identify Dimensions and Measures.
-- Calculate business KPIs.
-- Analyze data distribution.
-- Discover business patterns.
-- Prepare the dataset for future analysis.
+- Calculate key business metrics (KPIs).
+- Analyze data distribution and magnitude.
+- Discover business patterns and trends.
+- Prepare a reliable dataset for Business Intelligence and Advanced Analytics.
 
 ---
 
@@ -24,69 +24,73 @@ The objective is to understand the structure, quality and business characteristi
 
 ## 1. Database Exploration
 
-Explore schemas, tables, views and column metadata.
+Inspect the database structure and metadata.
 
-Examples:
+**Topics covered:**
 
+- Schemas
 - Tables
 - Views
+- Columns
 - Data Types
-- Column Names
 
 ---
 
 ## 2. Dimensions Exploration
 
-Review categorical fields used to segment the business.
+Analyze categorical attributes used to segment business information.
 
-Examples:
+**Examples:**
 
 - Country
 - Gender
 - Marital Status
-- Category
-- Subcategory
+- Product Category
+- Product Subcategory
 
 ---
 
 ## 3. Date Exploration
 
-Analyze the available historical data.
+Understand the available historical information.
 
-Examples:
+**Examples:**
 
 - First Order Date
 - Last Order Date
-- Years of Sales
-- Customer Age Range
+- Sales Time Range
+- Youngest Customer
+- Oldest Customer
 
 ---
 
 ## 4. Measures Exploration
 
-Calculate the main business metrics.
+Calculate the main business KPIs.
 
-Examples:
+**Examples:**
 
 - Total Sales
 - Total Orders
 - Total Customers
-- Average Price
-- Total Quantity
+- Total Products
+- Total Quantity Sold
+- Average Selling Price
 
 ---
 
 ## 5. Magnitude Analysis
 
-Measure the size and distribution of the business.
+Measure the distribution and size of the business across different dimensions.
 
-Examples:
+**Examples:**
 
 - Customers by Country
+- Customers by Gender
+- Products by Category
 - Revenue by Category
 - Revenue by Customer
-- Products by Category
-- Items Sold by Country
+- Sold Items by Country
 
 ---
 
@@ -94,10 +98,10 @@ Examples:
 
 Identify the best and worst business performers.
 
-Examples:
+**Examples:**
 
-- Top 5 Products
-- Bottom 5 Products
+- Top 5 Products by Revenue
+- Bottom 5 Products by Revenue
 
 ---
 
@@ -107,12 +111,25 @@ Examples:
 - SQL
 - Data Warehouse
 - Star Schema
+- Exploratory Data Analysis (EDA)
+
+---
+
+# Skills Demonstrated
+
+- SQL Querying
+- Data Exploration
+- Business KPI Analysis
+- Data Profiling
+- Ranking Analysis
+- Magnitude Analysis
+- Business-Oriented Analytics
 
 ---
 
 # Next Step
 
-After completing the EDA, the next phase of the project focuses on:
+The next phase of the project focuses on transforming the analytical dataset into business insights through:
 
 - Statistical Analysis
 - Customer Segmentation
