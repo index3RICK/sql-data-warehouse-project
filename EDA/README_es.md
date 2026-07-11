@@ -1,5 +1,9 @@
 # Análisis Exploratorio de Datos (EDA)
 
+<p align="center">
+  <img src="../docs/exploratory-data-analysis.png" alt="Exploratory Data Analysis" width="900">
+</p>
+
 ## Descripción General
 
 Esta carpeta contiene los scripts SQL utilizados para realizar un Análisis Exploratorio de Datos (EDA) sobre la capa Gold del Data Warehouse.
