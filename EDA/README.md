@@ -1,5 +1,9 @@
 # Exploratory Data Analysis (EDA)
 
+<p align="center">
+  <img src="docs/exploratory-data-analysis.png" width="950">
+</p>
+
 ## Overview
 
 This folder contains the SQL scripts used to perform an Exploratory Data Analysis (EDA) on the Gold Layer of the Data Warehouse.
