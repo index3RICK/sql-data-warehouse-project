@@ -1,142 +1,116 @@
-# Exploratory Data Analysis (EDA)
+# 📊 Exploratory Data Analysis (EDA)
 
-<p align="center">
-  <img src="../docs/exploratory-data-analysis.png" alt="Exploratory Data Analysis Workflow" width="900">
-</p>
-
-## Overview
-
-This folder contains the SQL scripts used to perform an Exploratory Data Analysis (EDA) on the Gold Layer of the Data Warehouse.
-
-The purpose of this phase is to understand the structure, quality, distribution, and business characteristics of the data before building dashboards or applying advanced analytics techniques.
+Exploratory Data Analysis performed on the Gold Layer of the Data Warehouse to understand business behavior, identify patterns, validate data quality, and prepare the foundation for advanced analytics.
 
 ---
 
-# Objectives
+## 📌 Description
 
-- Explore database objects and metadata.
-- Understand the structure of the analytical model.
-- Identify Dimensions and Measures.
-- Calculate key business metrics (KPIs).
-- Analyze data distribution and magnitude.
-- Discover business patterns and trends.
-- Prepare a reliable dataset for Business Intelligence and Advanced Analytics.
+This module contains SQL-based exploratory analysis designed to investigate sales, customers, products, and business performance before applying advanced analytical techniques.
+
+The objective of this stage is to transform raw business data into meaningful observations that support future reporting, segmentation, KPI development, and Business Intelligence initiatives.
 
 ---
 
-# Analysis Sections
+## 🔍 Exploration Areas
 
-## 1. Database Exploration
+### 📈 Sales Exploration
 
-Inspect the database structure and metadata.
+Analyzes overall business performance.
 
-**Topics covered:**
+Examples:
 
-- Schemas
-- Tables
-- Views
-- Columns
-- Data Types
-
----
-
-## 2. Dimensions Exploration
-
-Analyze categorical attributes used to segment business information.
-
-**Examples:**
-
-- Country
-- Gender
-- Marital Status
-- Product Category
-- Product Subcategory
+* Total Revenue
+* Sales Distribution
+* Revenue by Category
+* Revenue by Product
 
 ---
 
-## 3. Date Exploration
+### 👥 Customer Exploration
 
-Understand the available historical information.
+Analyzes customer behavior and purchasing activity.
 
-**Examples:**
+Examples:
 
-- First Order Date
-- Last Order Date
-- Sales Time Range
-- Youngest Customer
-- Oldest Customer
-
----
-
-## 4. Measures Exploration
-
-Calculate the main business KPIs.
-
-**Examples:**
-
-- Total Sales
-- Total Orders
-- Total Customers
-- Total Products
-- Total Quantity Sold
-- Average Selling Price
+* Customer Distribution
+* Customer Spending Patterns
+* Purchase Frequency
+* Customer Revenue Contribution
 
 ---
 
-## 5. Magnitude Analysis
+### 📦 Product Exploration
 
-Measure the distribution and size of the business across different dimensions.
+Analyzes product performance and business impact.
 
-**Examples:**
+Examples:
 
-- Customers by Country
-- Customers by Gender
-- Products by Category
-- Revenue by Category
-- Revenue by Customer
-- Sold Items by Country
+* Product Revenue
+* Product Distribution
+* Category Performance
+* Product Sales Contribution
 
 ---
 
-## 6. Ranking Analysis
+### 📅 Time-Based Exploration
 
-Identify the best and worst business performers.
+Analyzes business evolution through time.
 
-**Examples:**
+Examples:
 
-- Top 5 Products by Revenue
-- Bottom 5 Products by Revenue
-
----
-
-# Technologies
-
-- PostgreSQL
-- SQL
-- Data Warehouse
-- Star Schema
-- Exploratory Data Analysis (EDA)
+* Monthly Sales
+* Revenue Trends
+* Customer Growth
+* Product Activity Trends
 
 ---
 
-# Skills Demonstrated
+## 🎯 Objectives
 
-- SQL Querying
-- Data Exploration
-- Business KPI Analysis
-- Data Profiling
-- Ranking Analysis
-- Magnitude Analysis
-- Business-Oriented Analytics
+The exploratory analysis helps answer questions such as:
+
+* What does the data look like?
+* Are there quality issues or anomalies?
+* Which products generate the highest revenue?
+* Which customers contribute the most?
+* How do sales evolve over time?
+* Which categories drive business performance?
 
 ---
 
-# Next Step
+## 🛠 Technologies
 
-The next phase of the project focuses on transforming the analytical dataset into business insights through:
+* PostgreSQL
+* SQL
+* Aggregations
+* Window Functions
+* Common Table Expressions (CTEs)
+* Data Exploration Techniques
 
-- Statistical Analysis
-- Customer Segmentation
-- Time Series Analysis
-- Advanced Data Analytics
-- Business Intelligence Dashboards
+---
+
+## 🚀 Next Stage
+
+The findings from this module were used as the foundation for the Advanced Analytics layer.
+
+➡️ Continue to:
+
+**Advanced Analytics**
+
+`../advanced_analytics/README.md`
+
+In the next stage, exploratory findings are transformed into:
+
+* Trend Analysis
+* Performance Analysis
+* Segmentation Models
+* Business KPIs
+* Power BI Dashboards
+* Executive Reporting
+
+---
+
+## 🎯 Objective
+
+Demonstrate how SQL can be used to explore business data, identify patterns, validate assumptions, and prepare datasets for advanced analytics and Business Intelligence solutions.
