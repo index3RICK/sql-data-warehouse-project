@@ -1,142 +1,116 @@
-# Análisis Exploratorio de Datos (EDA)
+# 📊 Análisis Exploratorio de Datos (EDA)
 
-<p align="center">
-  <img src="../docs/exploratory-data-analysis.png" alt="Exploratory Data Analysis" width="900">
-</p>
-
-## Descripción General
-
-Esta carpeta contiene los scripts SQL utilizados para realizar un Análisis Exploratorio de Datos (EDA) sobre la capa Gold del Data Warehouse.
-
-El objetivo de esta etapa es comprender la estructura, calidad, distribución y comportamiento del negocio antes de construir dashboards o aplicar técnicas de analítica avanzada.
+Análisis exploratorio realizado sobre la capa Gold del Data Warehouse para comprender el comportamiento del negocio, identificar patrones, validar la calidad de los datos y preparar la base para análisis avanzados.
 
 ---
 
-# Objetivos
+## 📌 Descripción
 
-- Explorar los objetos y metadatos de la base de datos.
-- Comprender la estructura del modelo analítico.
-- Identificar Dimensiones y Medidas.
-- Calcular los principales indicadores del negocio (KPIs).
-- Analizar la distribución y magnitud de los datos.
-- Descubrir patrones de comportamiento del negocio.
-- Preparar un conjunto de datos confiable para Business Intelligence y Analítica Avanzada.
+Este módulo contiene análisis exploratorios desarrollados en SQL con el objetivo de investigar ventas, clientes, productos y desempeño del negocio antes de aplicar técnicas analíticas más avanzadas.
+
+El propósito de esta etapa es transformar datos de negocio en observaciones útiles que sirvan como base para reportes, segmentaciones, KPIs y soluciones de Business Intelligence.
 
 ---
 
-# Secciones del Análisis
+## 🔍 Áreas de Exploración
 
-## 1. Exploración de la Base de Datos
+### 📈 Exploración de Ventas
 
-Inspeccionar la estructura y los metadatos de la base de datos.
+Analiza el desempeño general del negocio.
 
-**Temas analizados:**
+Ejemplos:
 
-- Esquemas
-- Tablas
-- Vistas
-- Columnas
-- Tipos de datos
-
----
-
-## 2. Exploración de Dimensiones
-
-Analizar los atributos categóricos utilizados para segmentar la información del negocio.
-
-**Ejemplos:**
-
-- País
-- Género
-- Estado Civil
-- Categoría de Producto
-- Subcategoría de Producto
+* Ingresos Totales
+* Distribución de Ventas
+* Ventas por Categoría
+* Ventas por Producto
 
 ---
 
-## 3. Exploración de Fechas
+### 👥 Exploración de Clientes
 
-Comprender la información histórica disponible.
+Analiza el comportamiento y actividad de compra de los clientes.
 
-**Ejemplos:**
+Ejemplos:
 
-- Primera fecha de venta
-- Última fecha de venta
-- Rango histórico de ventas
-- Cliente más joven
-- Cliente de mayor edad
-
----
-
-## 4. Exploración de Medidas
-
-Calcular los principales indicadores del negocio.
-
-**Ejemplos:**
-
-- Ventas Totales
-- Total de Pedidos
-- Total de Clientes
-- Total de Productos
-- Cantidad Total Vendida
-- Precio Promedio de Venta
+* Distribución de Clientes
+* Patrones de Gasto
+* Frecuencia de Compra
+* Contribución a los Ingresos
 
 ---
 
-## 5. Análisis de Magnitud
+### 📦 Exploración de Productos
 
-Medir la distribución y el tamaño del negocio a través de distintas dimensiones.
+Analiza el rendimiento de los productos y su impacto en el negocio.
 
-**Ejemplos:**
+Ejemplos:
 
-- Clientes por País
-- Clientes por Género
-- Productos por Categoría
-- Ingresos por Categoría
-- Ingresos por Cliente
-- Productos Vendidos por País
+* Ingresos por Producto
+* Distribución de Productos
+* Rendimiento por Categoría
+* Participación en Ventas
 
 ---
 
-## 6. Análisis de Rankings
+### 📅 Exploración Temporal
 
-Identificar el mejor y peor desempeño del negocio.
+Analiza la evolución del negocio a través del tiempo.
 
-**Ejemplos:**
+Ejemplos:
 
-- Top 5 Productos por Ingresos
-- Bottom 5 Productos por Ingresos
-
----
-
-# Tecnologías
-
-- PostgreSQL
-- SQL
-- Data Warehouse
-- Modelo Estrella (Star Schema)
-- Análisis Exploratorio de Datos (EDA)
+* Ventas Mensuales
+* Tendencias de Ingresos
+* Crecimiento de Clientes
+* Evolución de Productos
 
 ---
 
-# Habilidades Demostradas
+## 🎯 Objetivos
 
-- Consultas SQL
-- Exploración de Datos
-- Análisis de KPIs
-- Perfilado de Datos
-- Análisis de Rankings
-- Análisis de Magnitud
-- Analítica Orientada al Negocio
+El análisis exploratorio permite responder preguntas como:
+
+* ¿Cómo se comportan los datos?
+* ¿Existen problemas de calidad o anomalías?
+* ¿Qué productos generan más ingresos?
+* ¿Qué clientes aportan más valor?
+* ¿Cómo evolucionan las ventas a lo largo del tiempo?
+* ¿Qué categorías impulsan el negocio?
 
 ---
 
-# Próxima Etapa
+## 🛠 Tecnologías
 
-La siguiente fase del proyecto estará enfocada en transformar los datos analizados en información de valor mediante:
+* PostgreSQL
+* SQL
+* Agregaciones
+* Funciones de Ventana
+* Common Table Expressions (CTEs)
+* Técnicas de Exploración de Datos
 
-- Análisis Estadístico
-- Segmentación de Clientes
-- Series Temporales
-- Analítica Avanzada
-- Dashboards de Business Intelligence
+---
+
+## 🚀 Siguiente Etapa
+
+Los hallazgos obtenidos en este módulo sirvieron como base para la capa de Analítica Avanzada.
+
+➡️ Continuar en:
+
+**Analítica Avanzada**
+
+`../advanced_analytics/README.md`
+
+En la siguiente etapa los hallazgos exploratorios se transforman en:
+
+* Análisis de Tendencias
+* Análisis de Rendimiento
+* Modelos de Segmentación
+* KPIs de Negocio
+* Dashboards en Power BI
+* Reportes Ejecutivos
+
+---
+
+## 🎯 Objetivo
+
+Demostrar cómo SQL puede utilizarse para explorar datos empresariales, identificar patrones, validar supuestos y preparar conjuntos de datos para análisis avanzados y soluciones de Business Intelligence.
